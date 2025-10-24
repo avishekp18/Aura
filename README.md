@@ -6,7 +6,7 @@ Welcome to the **Social Networking Site** built using the **MERN Stack** (MongoD
 
 ## 🚀 Live Demo
 
-Check out the live demo of the application [here](https://fb-mern.vercel.app/).
+Check out the live demo of the application [here](https://aura-frontend-orcin.vercel.app/).
 
 ## 📄 Description
 
@@ -41,7 +41,7 @@ To run the project locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/rehmanNRY/SocialMediaApp
+    git clone https://github.com/avishekp18/Aura
     ```
 
 2. **Install dependencies**:
@@ -78,8 +78,8 @@ To run the project locally, follow these steps:
 
 ## 👨‍💻 Developer
 
-**Rehman**  
-[LinkedIn](https://www.linkedin.com/posts/rehman-nry_finally-completed-that-project-hey-everyone-activity-7242780752663265281-CWtB?utm_source=share&utm_medium=member_desktop)
+**Avishek**  
+[LinkedIn]()
 
 Feel free to check out the live demo and connect with me on LinkedIn!
 # Aura
