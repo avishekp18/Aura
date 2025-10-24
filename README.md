@@ -3,7 +3,7 @@
 Welcome to **Aura**, a modern **social networking platform** built using the **MERN Stack + Next.js**.  
 This project lets users connect, post, chat, and engage socially — just like a professional social media experience.
 
-![Website Screenshot](./frontend/public/images/Áura.webp)
+![Website Screenshot](./Aura.webp)
 
 ---
 
