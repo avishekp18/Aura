@@ -1,96 +1,159 @@
-# Social Networking Site - MERN Stack
+# 🌐 Aura - Social Networking Platform (MERN + Next.js)
 
-Welcome to the **Social Networking Site** built using the **MERN Stack** (MongoDB, Express, React, Node.js). This project offers users the ability to connect with each other, share posts, like content, and more, similar to popular social networking platforms.
+Welcome to **Aura**, a modern **social networking platform** built using the **MERN Stack + Next.js**.  
+This project lets users connect, post, chat, and engage socially — just like a professional social media experience.
 
 ![Website Screenshot](./frontend/public/images/Screenshot.png)
 
+---
+
 ## 🚀 Live Demo
 
-Check out the live demo of the application [here](https://aura-frontend-orcin.vercel.app/).
+👉 **Live App:** [https://aura-frontend-orcin.vercel.app](https://aura-frontend-orcin.vercel.app)
+
+---
 
 ## 📄 Description
 
-This social networking site allows users to:
+**Aura** allows users to:
 
-- Create an account and log in by google or mannual.
-- Post updates, photos, and share content with their connections.
-- Like and comment on posts.
-- Edit their profiles and update personal information.
-- View and manage friend requests.
-- See real-time updates from other users on their feed.
+- Sign up or log in with **Google OAuth** or manual registration
+- Post text and photo updates
+- Like and comment on posts
+- Send and receive **friend requests**
+- Chat in **real time** with **Socket.io**
+- Edit profiles, bios, and profile pictures
+- Enjoy a smooth, responsive UI built with Tailwind CSS
+
+---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js with modern hooks and context for state management.
-- **Backend**: Node.js and Express.js.
-- **Database**: MongoDB for storing user data, posts, and comments.
-- **Authentication**: JWT (JSON Web Token) for secure user authentication.
-- **Hosting**: Vercel for deployment of the frontend and backend.
+### **Frontend**
+
+- **Next.js** (React Framework)
+- **React.js**
+- **Redux Toolkit** (State Management)
+- **Tailwind CSS**
+- **Framer Motion**
+
+### **Backend**
+
+- **Node.js**
+- **Express.js**
+- **Socket.io** (Real-time messaging)
+
+### **Database**
+
+- **MongoDB Atlas**
+
+### **Authentication**
+
+- **NextAuth.js** (Google OAuth)
+- **JWT** (JSON Web Tokens)
+
+### **Cloud Storage**
+
+- **Cloudinary**
+
+### **Hosting**
+
+- **Frontend:** Vercel
+- **Backend:** Render
+
+---
 
 ## 🔧 Features
 
-- User authentication (login, registration, password hashing).
-- Post creation, editing, and deletion.
-- Like and comment functionality.
-- Real-time feed updates.
-- Friend request system.
-- Profile management (edit user information, update profile picture).
+- 🔐 Secure Authentication (Manual + Google OAuth)
+- 📝 Post Creation, Editing, and Deletion
+- ❤️ Like & 💬 Comment System
+- 🧑‍🤝‍🧑 Friend Request Management
+- 💬 Real-time Chat with Socket.io
+- 🧾 Story Uploads (24-hour posts)
+- 👤 Profile Customization (Bio, Profile Picture, Cover Image)
+- 🪶 Smooth Animations and Modern UI
+
+---
 
 ## 🖥️ Setup Instructions
 
-To run the project locally, follow these steps:
+### 1️⃣ Clone the Repository
 
-1. **Clone the repository**:
+```bash
+git clone https://github.com/avishekp18/Aura.git
 
-   ```bash
-   git clone https://github.com/avishekp18/Aura
-   ```
+```
 
-2. **Install dependencies**:
+2️⃣ Install Dependencies
 
-   - Navigate to both the frontend and backend directories and run:
+For both frontend and backend:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
 
-3. **Set up environment variables**:
+```
 
-   - Create a `.env` file in the root directory of the backend and add the following:
+3️⃣ Environment Variables
 
-   ```env
-   MONGO_URI =
-   PORT =
-   CORS_ORIGIN=
-   JWT_SECRET=
+Create a .env file inside the backend folder and include:
 
-   CLOUDINARY_CLOUD_NAME=
-   CLOUDINARY_API_KEY=
-   CLOUDINARY_API_SECRET=
-   ```
+```bash
+PORT=8080
+MONGO_URI=<your-mongodb-atlas-uri>
+CORS_ORIGIN=http://localhost:3000,https://aura-frontend-orcin.vercel.app
+JWT_SECRET=<your-jwt-secret>
 
-4. **Start the development server**:
+CLOUDINARY_CLOUD_NAME=<your-cloudinary-cloud-name>
+CLOUDINARY_API_KEY=<your-api-key>
+CLOUDINARY_API_SECRET=<your-api-secret>
 
-   - Run the backend server:
 
-   ```bash
-   npm run dev
-   ```
+```
 
-   - Run the frontend React application:
+3️⃣ Environment Variables
 
-   ```bash
-   npm run dev
-   ```
+For the frontend .env.local:
 
-5. **Access the app**:
-   - Open your browser and go to `http://localhost:3000` for the frontend and `http://localhost:<Backend Port>` for the backend.
+```bash
+NEXT_PUBLIC_BACKEND_API=https://aura-backend-y8n8.onrender.com
+NEXT_PUBLIC_SOCKET_URL=https://aura-backend-y8n8.onrender.com
+NEXTAUTH_URL=https://aura-frontend-orcin.vercel.app
+NEXTAUTH_SECRET=<your-nextauth-secret>
 
-## 👨‍💻 Developer
+GOOGLE_CLIENT_ID=<your-google-client-id>
+GOOGLE_CLIENT_SECRET=<your-google-client-secret>
 
-**Avishek**  
-[LinkedIn]()
+```
 
-Feel free to check out the live demo and connect with me on LinkedIn!
+4️⃣ Run the Backend Project:
 
-# Aura
+```bash
+npm run dev
+
+```
+
+4️⃣ Run the Backend Project:
+
+```bash
+npm run dev
+```
+
+5️⃣ Access the App
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:8080
+
+👨‍💻 Developer
+
+Avishek Pradhan
+🔗 [LinkedIn](https://www.linkedin.com/in/avishek-pradhan01/)
+
+Feel free to explore, fork, and contribute! 🚀
+
+🪶 Aura — Connect. Share. Chat.
+
+---
+
+Would you like me to make a **shorter version** (for your LinkedIn project post) — like 4–5 bullet points and one short paragraph for the caption?
